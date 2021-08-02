@@ -1,11 +1,11 @@
-package co.edu.utp.misiontic2022.c2.cdiaz.model.dao;
+package co.edu.utp.misiontic2022.c2.cdiaz.modelo.dao;
 
+import co.edu.utp.misiontic2022.c2.cdiaz.modelo.vo.Employee;
 import java.util.List;
 
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-import co.edu.utp.misiontic2022.c2.cdiaz.model.vo.Employee;
 
 public class EmployeeDao {
 

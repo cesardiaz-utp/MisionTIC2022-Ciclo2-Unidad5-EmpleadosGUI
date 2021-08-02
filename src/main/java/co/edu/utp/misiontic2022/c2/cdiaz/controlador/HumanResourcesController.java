@@ -1,12 +1,11 @@
 package co.edu.utp.misiontic2022.c2.cdiaz.controlador;
 
+import co.edu.utp.misiontic2022.c2.cdiaz.modelo.dao.DepartmentDao;
+import co.edu.utp.misiontic2022.c2.cdiaz.modelo.dao.EmployeeDao;
+import co.edu.utp.misiontic2022.c2.cdiaz.modelo.vo.Department;
+import co.edu.utp.misiontic2022.c2.cdiaz.modelo.vo.Employee;
 import java.sql.SQLException;
 import java.util.List;
-
-import co.edu.utp.misiontic2022.c2.cdiaz.model.dao.DepartmentDao;
-import co.edu.utp.misiontic2022.c2.cdiaz.model.dao.EmployeeDao;
-import co.edu.utp.misiontic2022.c2.cdiaz.model.vo.Department;
-import co.edu.utp.misiontic2022.c2.cdiaz.model.vo.Employee;
 
 public class HumanResourcesController {
 

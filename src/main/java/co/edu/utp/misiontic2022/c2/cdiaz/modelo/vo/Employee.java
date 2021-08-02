@@ -1,4 +1,4 @@
-package co.edu.utp.misiontic2022.c2.cdiaz.model.vo;
+package co.edu.utp.misiontic2022.c2.cdiaz.modelo.vo;
 
 import java.io.Serializable;
 
@@ -11,7 +11,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
-//@Table(name = "employees")
+@Table(name = "employees")
 public class Employee implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
